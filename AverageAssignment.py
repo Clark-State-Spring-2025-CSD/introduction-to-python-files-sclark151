@@ -8,3 +8,13 @@
 #Number 2: 11
 #Number 3: 12
 #The sum of 11 and 11 and 12 is 34 and the average is 11.333333333333334.
+
+print("Please enter three whole numbers.")
+number1 = int(input("Number 1: "))
+number2 = int(input("Number 2: "))
+number3 = int(input("Number 3: "))
+
+sum = number1 + number2 + number3
+average = sum / 3
+
+print(f"The sum of {number1}, {number2}, and {number3} is {sum} and the average is {average}.")
